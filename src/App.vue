@@ -39,10 +39,7 @@ input[type="file"] {
   align-items: center;
   flex-wrap: wrap;
 }
-.col-sm {
-  text-align: center;
-}
-.col-sm-6 {
+.col-sm, .col-sm-6 {
   text-align: center;
 }
 .btn-secondary {
@@ -64,15 +61,7 @@ input[type="file"] {
   color: white;
   background-color: #007bff;
 }
-.custom-file-upload {
-  display: inline-block;
-  padding: 6px 12px;
-  cursor: pointer;
-}
 .form-inline {
-  width: 100%;
-}
-#__BVID__5 {
   width: 100%;
 }
 #file-selector__BV_file_outer_ {
