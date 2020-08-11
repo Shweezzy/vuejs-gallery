@@ -37,7 +37,7 @@
       </div>
     </div>
     <hr />
-    <div class="row d-flex flex-wrap" v-if="show">
+    <div class="d-flex flex-wrap" v-if="show">
       <div
         class="w-25 p-3"
         v-for="(url, index) in photosList"

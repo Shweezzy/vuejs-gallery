@@ -34,8 +34,10 @@ input[type="file"] {
   float: inherit;
   width: 90px;
 }
-.row {
+.flex-wrap {
   margin: 0;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .col-sm {
   text-align: center;
