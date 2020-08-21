@@ -53,7 +53,7 @@
           img-top
         >
           <b-card-text id="cardText">
-            {{ url }}
+            {{ url.slice(0, 6) }}
             <br />
             <form
               :action="
